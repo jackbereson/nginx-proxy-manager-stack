@@ -4,7 +4,7 @@ services:
     image: 'jc21/nginx-proxy-manager:latest'
     ports:
       - '80:80'
-      - '81:81'
+      # - '81:81'
       - '443:443'
     environment:
       DB_MYSQL_HOST: "db"
